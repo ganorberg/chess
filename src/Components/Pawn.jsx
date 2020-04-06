@@ -1,7 +1,7 @@
 import React from "react";
-import BlackPawn from "../assets-pieces/black/Pawn";
-import WhitePawn from "../assets-pieces/white/Pawn";
+import BlackPawn from "../assets/black/Pawn";
+import WhitePawn from "../assets/white/Pawn";
 
-export default function Pawn({ color, position, board }) {
+export default function Pawn({ color }) {
   return color === "black" ? <BlackPawn /> : <WhitePawn />;
 }

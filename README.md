@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="460" height="460" src="./public/board.png">
+</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

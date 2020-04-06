@@ -1,0 +1,41 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-auto-flow: row;
+}
+
+.space {
+  color: #fff;
+  border: 0;
+}
+
+.space:nth-child(16n + 1),
+.space:nth-child(16n + 3),
+.space:nth-child(16n + 5),
+.space:nth-child(16n + 7),
+.space:nth-child(16n + 10),
+.space:nth-child(16n + 12),
+.space:nth-child(16n + 14),
+.space:nth-child(16n) {
+  background-color: #b1e4b8;
+}
+
+.space:nth-child(16n + 2),
+.space:nth-child(16n + 4),
+.space:nth-child(16n + 6),
+.space:nth-child(16n + 8),
+.space:nth-child(16n + 9),
+.space:nth-child(16n + 11),
+.space:nth-child(16n + 13),
+.space:nth-child(16n + 15) {
+  background-color: #70a2a3;
+}
